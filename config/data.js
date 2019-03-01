@@ -107,6 +107,97 @@ let dataConfig = {
       "blockgroup"
     ]
   },
+  "mCKD_ASIAN": {
+    "metric": "CKD_ASIAN",
+    "category": "Health",
+    "title": "Chronic Kidney Disease Rate (Asian Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 3.08,"y_2017":3.7},
+    "geographies": [
+      "tract"
+    ]
+  },
+  "mCKD_BLACK": {
+    "metric": "CKD_BLACK",
+    "category": "Health",
+    "title": "Chronic Kidney Disease Rate (Black or African American Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 9.11,"y_2017":9.87},
+    "geographies": [
+      "tract"
+    ]
+  },
+  "mCKD_FEMALE": {
+    "metric": "CKD_FEMALE",
+    "category": "Health",
+    "title": "Chronic Kidney Disease Rate (Female)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 8.41,"y_2017":9.38},
+    "geographies": [
+      "tract"
+    ]
+  },
+  "mCKD_HISPANIC": {
+    "metric": "CKD_HISPANIC",
+    "category": "Health",
+    "title": "Chronic Kidney Disease Rate (Hispanic or Latino/a Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 2.53,"y_2017":3.11},
+    "geographies": [
+      "tract"
+    ]
+  },
+  "mCKD_MALE": {
+    "metric": "CKD_MALE",
+    "category": "Health",
+    "title": "Chronic Kidney Disease Rate (Male)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 8.51,"y_2017":9.13},
+    "geographies": [
+      "tract"
+    ]
+  },
+  "mCKD_TOTAL": {
+    "metric": "CKD_TOTAL",
+    "category": "Health",
+    "title": "Chronic Kidney Disease Rate (Adult Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 8.43,"y_2017":9.26},
+    "geographies": [
+      "tract"
+    ]
+  },
+  "mCKD_WHITE": {
+    "metric": "CKD_WHITE",
+    "category": "Health",
+    "title": "Chronic Kidney Disease Rate (White Population)",
+    "suffix": "%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 3.27,"y_2017":10.75},
+    "geographies": [
+      "tract"
+    ]
+  },
   "mCLINIC": {
     "metric": "CLINIC",
     "category": "Health",
@@ -178,6 +269,7 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
+    "world_val": {"y_2015": 8.32,"y_2017":7.81},
     "geographies": [
       "tract"
         ]
@@ -190,6 +282,7 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
+    "world_val": {"y_2015": 18.99,"y_2017":18.36},
     "geographies": [
       "tract"
         ]
@@ -202,6 +295,7 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
+    "world_val": {"y_2015": 12.36,"y_2017":12.04},
     "geographies": [
       "tract"
         ]
@@ -214,6 +308,7 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
+    "world_val": {"y_2015": 13.95,"y_2017":13.25},
     "geographies": [
       "tract"
         ]
@@ -226,6 +321,7 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
+    "world_val": {"y_2015": 14.67,"y_2017":14.15},
     "geographies": [
       "tract"
         ]
@@ -238,6 +334,7 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
+    "world_val": {"y_2015": 13.42,"y_2017":12.86},
     "geographies": [
       "tract"
         ]
@@ -250,10 +347,11 @@ let dataConfig = {
     "raw_label": "adults",
     "decimals": 1,
     "type": "weighted",
+    "world_val": {"y_2015": 9.69,"y_2017":9.23},
     "geographies": [
       "tract"
         ]
-    },
+  },
   "mD_SQM": {
     "metric": "D_SQM",
     "category": "Safety",
@@ -264,7 +362,98 @@ let dataConfig = {
     "type": "weighted",
     "geographies": [
       "blockgroup"
-    ]
+        ]
+  },
+//  "mHEARTATTACK_ASIAN": {
+//   "metric": "HEARTATTACK_ASIAN",
+//    "category": "Health",
+//    "title": "Heart Attack (Asian Population)",
+//   "suffix":"%",
+//    "raw_label": "adults",
+//    "decimals": 1,
+//    "type": "weighted",
+//    "world_val": {"y_2015": 0.70,"y_2017":0.63},
+//    "geographies": [
+//      "tract"
+//        ]
+//  },
+  "mHEARTATTACK_BLACK": {
+    "metric": "HEARTATTACK_BLACK",
+    "category": "Health",
+    "title": "Heart Attack (Black or African American Population)",
+    "suffix":"%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 2.38,"y_2017":2.16},
+    "geographies": [
+      "tract"
+         ]
+  },
+  "mHEARTATTACK_FEMALE": {
+    "metric": "HEARTATTACK_FEMALE",
+    "category": "Health",
+    "title": "Heart Attack (Female)",
+    "suffix":"%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 1.47,"y_2017":1.31},
+    "geographies": [
+      "tract"
+        ]
+  },
+//  "mHEARTATTACK_HISPANIC": {
+//    "metric": "HEARTATTACK_HISPANIC",
+//   "category": "Health",
+//   "title": "Heart Attack (Hispanic or Latino/a Population)",
+//   "suffix":"%",
+//    "raw_label": "adults",
+//    "decimals": 1,
+//    "type": "weighted",
+//   "world_val": {"y_2015": 0.47,"y_2017":0.43},
+//    "geographies": [
+//      "tract"
+//        ]
+//  },
+  "mHEARTATTACK_MALE": {
+    "metric": "HEARTATTACK_MALE",
+    "category": "Health",
+    "title": "Heart Attack (Male)",
+    "suffix":"%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 3.02,"y_2017":2.70},
+    "geographies": [
+      "tract"
+        ]
+  },
+  "mHEARTATTACK_TOTAL": {
+    "metric": "HEARTATTACK_TOTAL",
+    "category": "Health",
+    "title": "Heart Attack (Adult Population)",
+    "suffix":"%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 2.08,"y_2017":1.86},
+    "geographies": [
+      "tract"
+        ]
+  },
+  "mHEARTATTACK_WHITE": {
+    "metric": "HEARTATTACK_WHITE",
+    "category": "Health",
+    "title": "Heart Attack (White Population)",
+    "suffix":"%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 2.33,"y_2017":2.08},
+    "geographies": [
+      "tract"
+       ]
   },
   "mHMINC": {
     "metric": "HMINC",
@@ -275,7 +464,7 @@ let dataConfig = {
     "type": "mean",
     "geographies": [
       "tract"
-    ]
+        ]
   },
   "mKWH": {
     "metric": "KWH",
@@ -724,6 +913,97 @@ let dataConfig = {
     "geographies": [
       "blockgroup"
     ]
+  },
+//  "mSTROKE_ASIAN": {
+//   "metric": "STROKE_ASIAN",
+//    "category": "Health",
+//    "title": "Stroke (Asian Population)",
+//   "suffix":"%",
+//    "raw_label": "adults",
+//    "decimals": 1,
+//    "type": "weighted",
+//    "world_val": {"y_2015": 1.22,"y_2017":1.21},
+//    "geographies": [
+//      "tract"
+//        ]
+//  },
+  "mSTROKE_BLACK": {
+    "metric": "STROKE_BLACK",
+    "category": "Health",
+   "title": "Stroke (Black or African American Population)",
+    "suffix":"%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 3.79,"y_2017":3.34},
+    "geographies": [
+      "tract"
+        ]
+  },
+  "mSTROKE_FEMALE": {
+    "metric": "STROKE_FEMALE",
+    "category": "Health",
+    "title": "Stroke (Female)",
+    "suffix":"%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 2.89,"y_2017":2.45},
+    "geographies": [
+      "tract"
+        ]
+  },
+//  "mSTROKE_HISPANIC": {
+//    "metric": "STROKE_HISPANIC",
+//    "category": "Health",
+//    "title": "Stroke (Hispanic or Latino/a Population)",
+//   "suffix":"%",
+//    "raw_label": "adults",
+//    "decimals": 1,
+//    "type": "weighted",
+//   "world_val": {"y_2015": 0.82,"y_2017":0.65},
+//    "geographies": [
+//      "tract"
+//        ]
+//  },
+  "mSTROKE_MALE": {
+    "metric": "STROKE_MALE",
+   "category": "Health",
+    "title": "Stroke (Male)",
+    "suffix":"%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 3.78,"y_2017":3.23},
+    "geographies": [
+      "tract"
+        ]
+  },
+  "mSTROKE_TOTAL": {
+    "metric": "STROKE_TOTAL",
+    "category": "Health",
+    "title": "Stroke (Adult Population)",
+    "suffix":"%",
+    "raw_label": "adults",
+    "decimals": 1,
+   "type": "weighted",
+    "world_val": {"y_2015": 3.24,"y_2017":2.76},
+    "geographies": [
+      "tract"
+        ]
+  },
+  "mSTROKE_WHITE": {
+    "metric": "STROKE_WHITE",
+    "category": "Health",
+    "title": "Stroke (White Population)",
+    "suffix":"%",
+    "raw_label": "adults",
+    "decimals": 1,
+    "type": "weighted",
+    "world_val": {"y_2015": 3.52,"y_2017":2.95},
+    "geographies": [
+      "tract"
+       ]
   },
   "mSUMEJECT": {
     "metric": "SUMEJECT",
